@@ -1,0 +1,15 @@
+enable
+conf t
+enable pass cisco
+line vty 0 4
+login
+password cisco
+
+enable
+conf t
+vtp mode trans
+vtp domain ccna
+vlan 10
+vlan 20
+vlan 30 
+vlan 100
